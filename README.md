@@ -3,9 +3,7 @@ Case Study: HSBC Bank – AI-Powered Fraud Detection
 1. Introduction
 
 Rise of digital banking led to higher fraud risk (identity theft, phishing, laundering).
-
 Over 52% of banks faced more fraud (PwC 2024).
-
 HSBC adopted AI & ML to detect and prevent fraud in real time.
 
 
@@ -17,38 +15,24 @@ Digital transactions up 85% since 2019 → rise in fraud (credit card misuse, ac
 
 Annual fraud exposure (2021): $38 million.
 
-
 3. Problem Statement
 
 Rule-based systems failed due to:
-
 Static rules bypassed by fraudsters.
 
 20% false positives.
-
 Slow manual detection.
-
 Poor pattern recognition.
 
 
 
 4. Project Objectives
 
-1. Detect & prevent fraud in real time.
-
-
-2. Reduce false positives and improve customer experience.
-
-
-3. Integrate behavioral analytics.
-
-
-4. Ensure compliance (GDPR, AML).
-
-
-5. Build a scalable global system.
-
-
+∆. Detect & prevent fraud in real time.
+∆. Reduce false positives and improve customer experience.
+∆. Integrate behavioral analytics.
+∆. Ensure compliance (GDPR, AML).
+∆. Build a scalable global system.
 
 5. Methodology
 
@@ -69,9 +53,7 @@ Validation: 70/30 split, AUC = 0.98.
 Metrics: total transaction amount, risk scores, fraud totals.
 
 Visuals: line & donut charts, fraud trend by time, customer action breakdown.
-
 Tools: Power BI, Power Query, DAX.
-
 
 7. Implementation Strategy
 
@@ -81,7 +63,6 @@ Phase 2: Global rollout via AWS, Kafka, and Python APIs.
 
 Phase 3: Continuous learning and monthly retraining.
 
-
 8. Results & Achievements
 
 Metric	Before AI	After AI	Improvement
@@ -90,30 +71,22 @@ Annual Fraud Loss	$38M	$9M	76% ↓
 Detection Time	4.2 min	6 sec	>99% faster
 False Positives	20%	8%	60% ↓
 Complaints	510/mo	170/mo	67% ↓
-
-
 Fraud Risk Index ↑ 45%; customer trust ↑ 22%.
 
 
 9. Technical Architecture
 
 Data Layer: Centralized data lake.
-
 AI Layer: Python ML (Random Forest, XGBoost).
-
 Stream Layer: Kafka, Spark Streaming.
-
 Decision Layer: Real-time scoring APIs.
-
 Alert Layer: Dashboards, SMS/email alerts.
-
 
 10. Discussion & Conclusion
 
 AI adapts to new fraud tactics better than static systems.
 
 Behavioral analytics improved accuracy.
-
 Collaboration among teams ensured success.
 
 Challenges: high cost, retraining, data privacy compliance.
