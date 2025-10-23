@@ -29,9 +29,13 @@ Poor pattern recognition.
 4. Project Objectives
 
 ∆. Detect & prevent fraud in real time.
+
 ∆. Reduce false positives and improve customer experience.
+
 ∆. Integrate behavioral analytics.
+
 ∆. Ensure compliance (GDPR, AML).
+
 ∆. Build a scalable global system.
 
 5. Methodology
